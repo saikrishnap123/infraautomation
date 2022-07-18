@@ -3,7 +3,7 @@ terraform {
       resource_group_name = "terraformstoragerg"
       storage_account_name = "terraformstorage55"
       container_name = "test1"
-      key = "terraform.test1"
+      key = "terraform.test2"
       access_key = "jmzXBKeHqqhu62XZrfi28WUYRMuuZLuspHZK+IwG9IDbaY2JUQIi39nDSi/VZij0jhAv9eJnVzyz+AStNYFxoA=="
   }
 }
@@ -75,7 +75,7 @@ resource "azurerm_app_service_plan" "testappplan" {
 }
 
 resource "azurerm_app_service" "testwebapp" {
-    name = "testwebapp569"
+    name = "testwebapp5697582"
     location = azurerm_resource_group.testrglabel.location
     resource_group_name = azurerm_resource_group.testrglabel.name
     app_service_plan_id = azurerm_app_service_plan.testappplan.id
