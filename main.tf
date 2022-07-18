@@ -4,7 +4,7 @@ terraform {
       storage_account_name = "terraformstorage55"
       container_name = "test1"
       key = "terraform.test1"
-      access_key = "eaa8dae0-e229-4aa5-841d-e2eb0ac76625"
+      access_key = "jmzXBKeHqqhu62XZrfi28WUYRMuuZLuspHZK+IwG9IDbaY2JUQIi39nDSi/VZij0jhAv9eJnVzyz+AStNYFxoA=="
   }
 }
 
