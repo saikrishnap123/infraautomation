@@ -1,10 +1,10 @@
 terraform {
   backend "azurerm" {
-      resource_group_name = "terraformstoragerg"
-      storage_account_name = "terraformstorage55"
+      resource_group_name = "storgerg"
+      storage_account_name = "terraformstorage149"
       container_name = "test1"
-      key = "terraform.test2"
-      access_key = "jmzXBKeHqqhu62XZrfi28WUYRMuuZLuspHZK+IwG9IDbaY2JUQIi39nDSi/VZij0jhAv9eJnVzyz+AStNYFxoA=="
+      key = "terraform.test1"
+      access_key = "PA/L+mCYNdWnmOHbWiSTj3TJ+lhYKCJ2HYBGAjJwTu3d1R+c4UrBfh0TAquqfKdZb0sgq7FasmAn+ASt+YhQJQ=="
   }
 }
 
@@ -26,14 +26,14 @@ variable "subscription_id" {
 
 variable "client_id" {
     type = string
-    default = "86004665-4cd0-4364-9273-7577ae34f711"
+    default = "55055bf3-7423-487f-8c47-6819712cdb71"
     description = "client id"
   
 }
 
 variable "client_secret" {
     type = string
-    default = "e6f8Q~Mbmm0QWMwlPcLPmRj-LtAN0rPW6JQN1b3I"
+    default = "Bre8Q~VExvd1gq5lRQsMX13jsGXL0YW-_l90~at-"
     description = "client secret"
   
 }
